@@ -75,6 +75,11 @@ map <C-l> :tabnext<CR>
 " Setup a search and replace
 nmap ss :%s///gc<LEFT><LEFT><LEFT><LEFT>
 
+" whoops, force save a file open in read-only that you don't have permissions
+" for.
+" Be careful with this one.
+nmap sw :w !sudo tee %
+
 " Toggle folds
 nnoremap <space> zA
 " Create fold
