@@ -194,5 +194,5 @@ au FileType python inoremap . <c-r>=DotCompletion()<cr>
 au FileType c inoremap . <c-r>=DotCompletion()<cr>
 au FileType c inoremap -> <c-r>=ArrowComplete()<cr>
 
-call pathogen#infect()
-call pathogen#helptags()
+"call pathogen#infect()
+"call pathogen#helptags()
