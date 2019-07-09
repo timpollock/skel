@@ -5,3 +5,4 @@ Just my bash and vimrc files because I'm on many computers... My vimrc is also r
 
 You should totally use them. Or not. Either suits me.
 
+Test
